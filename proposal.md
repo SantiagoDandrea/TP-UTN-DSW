@@ -3,6 +3,10 @@
 ## Grupo
 ### Integrantes
 * legajo - Apellido(s), Nombre(s)
+* 52923 - D'Andrea, Santiago
+* 51872 - De Benedetti, Martin
+* 49692 - Ravarotto, Giovanni Santino
+* 30478 - Giannuzzi, Guillermo
 
 ### Repositorios
 * [frontend app](http://hyperlinkToGihubOrGitlab)
