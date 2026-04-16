@@ -14,7 +14,7 @@
 
 ## Tema
 ### Descripción
-*2 a 6 líneas describiendo el negocio (menos es más)*
+*Sistema web E-Commerce destinado a la venta de artículos de colchonería, tecnología y electrodomésticos*
 
 ### Modelo
 ![imagen del modelo]()
