@@ -25,22 +25,20 @@
 
 ### Alcance Mínimo
 
-*Nota*: el siguiente es un ejemplo para un grupo de 3 integrantes para un sistema de hotel. El 
-
 Regularidad:
 |Req|Detalle|
 |:-|:-|
-|CRUD simple|1. CRUD Tipo Habitacion<br>2. CRUD Servicio<br>3. CRUD Localidad|
-|CRUD dependiente|1. CRUD Habitación {depende de} CRUD Tipo Habitacion<br>2. CRUD Cliente {depende de} CRUD Localidad|
-|Listado<br>+<br>detalle| 1. Listado de habitaciones filtrado por tipo de habitación, muestra nro y tipo de habitación => detalle CRUD Habitacion<br> 2. Listado de reservas filtrado por rango de fecha, muestra nro de habitación, fecha inicio y fin estadía, estado y nombre del cliente => detalle muestra datos completos de la reserva y del cliente|
-|CUU/Epic|1. Reservar una habitación para la estadía<br>2. Realizar el check-in de una reserva|
+|CRUD simple|1. CRUD Categoría de Producto<br>2. CRUD Marca<br>3. CRUD Medio de Pago<br>4. CRUD Localidad (deberiamos agregarlo al MD emparentado con Usuario)|
+|CRUD dependiente|1. CRUD Producto {depende de} CRUD Categoría de Producto<br>2. CRUD Usuario {depende de} CRUD Localidad|
+|Listado<br>+<br>detalle| 1. Listado de productos filtrado por categoría de producto y/o marca, muestra marca, descripcion y precio del producto => detalle CRUD Producto<br> 2. Listado de pedidos filtrado por rango de fecha y/o estado, muestra nro de pedido, fecha del pedido, estado y nombre del cliente => detalle muestra datos completos del pedido y del usuario|
+|CUU/Epic|1. Realizar un pedido completo<br>2. Visualizar los pedidos pendientes de envio ???|
 
 
-Adicionales para Aprobación
+Adicionales para Aprobación (CHEQUEAR EN PROFUNDIDAD) 
 |Req|Detalle|
 |:-|:-|
-|CRUD |1. CRUD Tipo Habitacion<br>2. CRUD Servicio<br>3. CRUD Localidad<br>4. CRUD Provincia<br>5. CRUD Habitación<br>6. CRUD Empleado<br>7. CRUD Cliente|
-|CUU/Epic|1. Reservar una habitación para la estadía<br>2. Realizar el check-in de una reserva<br>3. Realizar el check-out y facturación de estadía y servicios|
+|CRUD |1. CRUD Categoría de Producto<br>2. CRUD Marca<br>3. CRUD Medio de Pago<br>4. CRUD Localidad<br>5. CRUD Producto<br>6. CRUD Pedido<br>6. CRUD Precio<br>7. CRUD Usuario<br>7. CRUD Proveedor<br>|
+|CUU/Epic|1. Realizar un pedido completo<br>2. Visualizar los pedidos pendientes de envio ???<br>3. Dar el alta de productos segun proveedor y agregarlos al stock del almacen correspondiente (faltaria Almacen en MD)<br>4. Realizar el cambio de estado del envío, y que por consiguiente se actualice el pedido tambien ???|
 
 
 ### Alcance Adicional Voluntario
@@ -49,7 +47,7 @@ Adicionales para Aprobación
 
 |Req|Detalle|
 |:-|:-|
-|Listados |1. Estadía del día filtrado por fecha muestra, cliente, habitaciones y estado <br>2. Reservas filtradas por cliente muestra datos del cliente y de cada reserve fechas, estado cantidad de habitaciones y huespedes|
-|CUU/Epic|1. Consumir servicios<br>2. Cancelación de reserva|
-|Otros|1. Envío de recordatorio de reserva por email|
+|Listados |1. Filtrado de pedidos con ordenamientos y agrupados por usuario<br>2. Filtrado de productos por precio|
+|CUU/Epic|1. Modifiación de precios ???<br>2. Cancelación de pedido|
+|Otros|1. Envío de seguimiento de pedido/envio por email al cliente|
 
