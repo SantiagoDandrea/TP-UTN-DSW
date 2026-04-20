@@ -16,10 +16,10 @@
 ### Descripción
 *Sistema web E-Commerce destinado a la venta de artículos de colchonería, tecnología y electrodomésticos*
 
-### Modelo (FALTA INCLUIR LINK/IMAGEN)
+### Modelo
 ![imagen del modelo]()
 
-*Nota*: incluir un link con la imagen de un modelo, puede ser modelo de dominio, diagrama de clases, DER. Si lo prefieren pueden utilizar diagramas con [Mermaid](https://mermaid.js.org) en lugar de imágenes.
+https://drive.google.com/file/d/1ThEiDhlALfpqsks9ULj0kDa6fzjh_M1S/view?usp=sharing
 
 ## Alcance Funcional 
 
@@ -38,7 +38,7 @@ Adicionales para Aprobación (CHEQUEAR EN PROFUNDIDAD)
 |Req|Detalle|
 |:-|:-|
 |CRUD |1. CRUD Categoría de Producto<br>2. CRUD Marca<br>3. CRUD Medio de Pago<br>4. CRUD Localidad<br>5. CRUD Producto<br>6. CRUD Pedido<br>7. CRUD Precio<br>8. CRUD Usuario<br>9. CRUD Proveedor<br>|
-|CUU/Epic|1. Realizar un pedido completo<br>2. Visualizar los pedidos pendientes de envio ???<br>3. Dar el alta de productos segun proveedor y agregarlos al stock del almacen correspondiente (faltaria Almacen en MD)<br>4. Realizar el cambio de estado del envío, y que por consiguiente se actualice el pedido tambien ???|
+|CUU/Epic|1. Realizar un pedido completo<br>2. Visualizar los pedidos pendientes de envio ???<br>3. Dar el alta de productos segun proveedor y agregarlos al stock del almacen correspondiente<br>4. Realizar el cambio de estado del envío, y que por consiguiente se actualice el pedido tambien ???|
 
 
 ### Alcance Adicional Voluntario
@@ -48,6 +48,6 @@ Adicionales para Aprobación (CHEQUEAR EN PROFUNDIDAD)
 |Req|Detalle|
 |:-|:-|
 |Listados |1. Filtrado de pedidos con ordenamientos y agrupados por usuario<br>2. Filtrado de productos por precio|
-|CUU/Epic|1. Modifiación de precios ???<br>2. Cancelación de pedido|
+|CUU/Epic|1. Modificación de precios ???<br>2. Cancelación de pedido|
 |Otros|1. Envío de seguimiento de pedido/envio por email al cliente|
 
