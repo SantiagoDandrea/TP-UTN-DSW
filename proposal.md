@@ -17,9 +17,8 @@
 *Sistema web E-Commerce destinado a la venta de artículos de colchonería, tecnología y electrodomésticos*
 
 ### Modelo
-![imagen del modelo]()
-
-https://drive.google.com/file/d/1ThEiDhlALfpqsks9ULj0kDa6fzjh_M1S/view?usp=sharing
+[Propuesta 1](https://drive.google.com/file/d/1ThEiDhlALfpqsks9ULj0kDa6fzjh_M1S/view?usp=sharing)
+[Propuesta 2](https://drive.google.com/file/d/1G9vCAjXbEdTR9zqLLkdPHgMROQR0kiN8/view?usp=sharing)
 
 ## Alcance Funcional 
 
