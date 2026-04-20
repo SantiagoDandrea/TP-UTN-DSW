@@ -37,7 +37,7 @@ Regularidad:
 Adicionales para Aprobación (CHEQUEAR EN PROFUNDIDAD) 
 |Req|Detalle|
 |:-|:-|
-|CRUD |1. CRUD Categoría de Producto<br>2. CRUD Marca<br>3. CRUD Medio de Pago<br>4. CRUD Localidad<br>5. CRUD Producto<br>6. CRUD Pedido<br>6. CRUD Precio<br>7. CRUD Usuario<br>7. CRUD Proveedor<br>|
+|CRUD |1. CRUD Categoría de Producto<br>2. CRUD Marca<br>3. CRUD Medio de Pago<br>4. CRUD Localidad<br>5. CRUD Producto<br>6. CRUD Pedido<br>7. CRUD Precio<br>8. CRUD Usuario<br>9. CRUD Proveedor<br>|
 |CUU/Epic|1. Realizar un pedido completo<br>2. Visualizar los pedidos pendientes de envio ???<br>3. Dar el alta de productos segun proveedor y agregarlos al stock del almacen correspondiente (faltaria Almacen en MD)<br>4. Realizar el cambio de estado del envío, y que por consiguiente se actualice el pedido tambien ???|
 
 
