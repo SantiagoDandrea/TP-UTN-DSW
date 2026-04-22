@@ -8,8 +8,8 @@
 * 30478 - Giannuzzi, Guillermo
 
 ### Repositorios
-* [frontend app](http://hyperlinkToGihubOrGitlab)
-* [backend app](http://hyperlinkToGihubOrGitlab)
+* [frontend app]()
+* [backend app]()
 *Nota*: si utiliza un monorepo indicar un solo link con fullstack app.
 
 ## Tema
@@ -25,17 +25,17 @@
 Regularidad:
 |Req|Detalle|
 |:-|:-|
-|CRUD simple|1. CRUD Categoría de Producto<br>2. CRUD Marca<br>3. CRUD Medio de Pago<br>4. CRUD Localidad (deberiamos agregarlo al MD emparentado con Usuario)|
+|CRUD simple|1. CRUD Categoría de Producto<br>2. CRUD Marca<br>3. CRUD Medio de Pago<br>4. CRUD Localidad|
 |CRUD dependiente|1. CRUD Producto {depende de} CRUD Categoría de Producto<br>2. CRUD Usuario {depende de} CRUD Localidad|
 |Listado<br>+<br>detalle| 1. Listado de productos filtrado por categoría de producto y/o marca, muestra marca, descripcion y precio del producto => detalle CRUD Producto<br> 2. Listado de pedidos filtrado por rango de fecha y/o estado, muestra nro de pedido, fecha del pedido, estado y nombre del cliente => detalle muestra datos completos del pedido y del usuario|
-|CUU/Epic|1. Realizar un pedido completo<br>2. Visualizar los pedidos pendientes de envio ???|
+|CUU/Epic|1. Realizar un pedido completo<br>2. Realizar el cambio de estado del pedido|
 
 
-Adicionales para Aprobación (CHEQUEAR EN PROFUNDIDAD) 
+Adicionales para Aprobación
 |Req|Detalle|
 |:-|:-|
-|CRUD |1. CRUD Categoría de Producto<br>2. CRUD Marca<br>3. CRUD Medio de Pago<br>4. CRUD Localidad<br>5. CRUD Producto<br>6. CRUD Pedido<br>7. CRUD Precio<br>8. CRUD Usuario<br>9. CRUD Proveedor<br>|
-|CUU/Epic|1. Realizar un pedido completo<br>2. Visualizar los pedidos pendientes de envio ???<br>3. Dar el alta de productos segun proveedor y agregarlos al stock del almacen correspondiente<br>4. Realizar el cambio de estado del envío, y que por consiguiente se actualice el pedido tambien ???|
+|CRUD |1. CRUD Categoría de Producto<br>2. CRUD Marca<br>3. CRUD Medio de Pago<br>4. CRUD Localidad<br>5. CRUD Producto<br>6. CRUD Pedido<br>7. CRUD Precio<br>8. CRUD Usuario<br>9. CRUD Proveedor<br>10. Envio<br>11. Stock<br>12. Almacen|
+|CUU/Epic|3. Dar el alta de productos y actualizar stock<br>4. Cancelar un pedido|
 
 
 ### Alcance Adicional Voluntario
@@ -45,6 +45,6 @@ Adicionales para Aprobación (CHEQUEAR EN PROFUNDIDAD)
 |Req|Detalle|
 |:-|:-|
 |Listados |1. Filtrado de pedidos con ordenamientos y agrupados por usuario<br>2. Filtrado de productos por precio|
-|CUU/Epic|1. Modificación de precios ???<br>2. Cancelación de pedido|
+|CUU/Epic|1. Modificación de precios<br>2. Agregar descuento por Marca o Categoria de Producto|
 |Otros|1. Envío de seguimiento de pedido/envio por email al cliente|
 
