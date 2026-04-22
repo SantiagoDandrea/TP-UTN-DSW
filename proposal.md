@@ -18,8 +18,6 @@
 
 ### Modelo
 [Propuesta](https://drive.google.com/file/d/1G9vCAjXbEdTR9zqLLkdPHgMROQR0kiN8/view?usp=sharing)
-![[TP-UTN-DSW/adjuntos/Captura de pantalla 2026-04-22 200523.png]]
-![A](adjuntos/Captura de pantalla 2026-04-22 200523.png)
 ## Alcance Funcional 
 
 ### Alcance Mínimo
