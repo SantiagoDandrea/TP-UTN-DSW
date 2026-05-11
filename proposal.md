@@ -48,5 +48,3 @@ Adicionales para Aprobación
 |CUU/Epic|1. Modificación de precios<br>2. Agregar descuento por Marca o Categoria de Producto|
 |Otros|1. Envío de seguimiento de pedido/envio por email al cliente|
 
-prueba de agregar info 
-xd
